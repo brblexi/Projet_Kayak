@@ -1,0 +1,27 @@
+# Projet Kayak — dépendances Python
+# Installation : pip install -r requirements.txt
+# Puis : playwright install chromium
+
+# Manipulation de données et APIs
+pandas>=2.0
+requests>=2.31
+python-dotenv>=1.0
+
+# Visualisation
+plotly>=5.24
+
+# Scraping
+scrapy>=2.13
+scrapy-playwright>=0.0.40
+playwright>=1.40
+
+# AWS
+boto3>=1.34
+
+# Base de données
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# Notebook (si pas déjà présent dans l'environnement)
+jupyter>=1.0
+ipykernel>=6.0
